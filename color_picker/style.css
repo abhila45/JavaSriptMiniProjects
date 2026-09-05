@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background: rgb(219, 224, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 255);
+}
+.boxes{
+     display: flex;
+     justify-content: space-evenly;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    margin: 100px auto 100px;
+    border: 1px solid black;
+    display: flex;
+    display: inline-block; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+#red{
+    background: red;
+}
+#white{
+    background: white;
+}
+#blue{
+    background: blue;
+}
+#yellow{
+    background: pink;
+}
+#pink{
+    background: yellow;
+}
+#orange{
+    background: orange;
+}
+body p{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
